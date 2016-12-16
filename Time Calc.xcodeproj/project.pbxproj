@@ -12,6 +12,8 @@
 		F37257481DFD00A500815169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37257461DFD00A500815169 /* Main.storyboard */; };
 		F372574A1DFD00A500815169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37257491DFD00A500815169 /* Assets.xcassets */; };
 		F372574D1DFD00A500815169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F372574B1DFD00A500815169 /* LaunchScreen.storyboard */; };
+		F37257551DFD19EC00815169 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37257541DFD19EC00815169 /* Period.swift */; };
+		F37257571DFE3E2900815169 /* TimePeriodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37257561DFE3E2900815169 /* TimePeriodCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F37257491DFD00A500815169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F372574C1DFD00A500815169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F372574E1DFD00A500815169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37257541DFD19EC00815169 /* Period.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		F37257561DFE3E2900815169 /* TimePeriodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F37257491DFD00A500815169 /* Assets.xcassets */,
 				F372574B1DFD00A500815169 /* LaunchScreen.storyboard */,
 				F372574E1DFD00A500815169 /* Info.plist */,
+				F37257541DFD19EC00815169 /* Period.swift */,
+				F37257561DFE3E2900815169 /* TimePeriodCell.swift */,
 			);
 			path = "Time Calc";
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					F372573E1DFD00A500815169 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A447W3CA8D;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F37257451DFD00A500815169 /* ViewController.swift in Sources */,
+				F37257571DFE3E2900815169 /* TimePeriodCell.swift in Sources */,
+				F37257551DFD19EC00815169 /* Period.swift in Sources */,
 				F37257431DFD00A500815169 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A447W3CA8D;
 				INFOPLIST_FILE = "Time Calc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.chunkster.Time-Calc";
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A447W3CA8D;
 				INFOPLIST_FILE = "Time Calc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.chunkster.Time-Calc";
@@ -299,6 +310,7 @@
 				F37257531DFD00A500815169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
